@@ -22,6 +22,25 @@ One-hot encoding of categorical variables (like route_type)
 
 Column Standardization
 
+**EDA Approach**
+
+Case Study started with fundamental analysis like describing and printing the shape of the dataset, value_counts, descriptive statistics, etc.
+
+After every analysis, observations are written for every operation.
+
+Handle outliers using the IQR method
+
+Using Univariate and bivariate analysis to visualize the effect of one variable on another variable using graphs (countplot, kdeplot, etc.).
+
+Multivariate analysis is also used to find flow of Deliveries in each state, average speed in states using Heatmaps and pySankey
+
+Visual Analysis using Histogram Plots, Log Distribution Plots, BoxPlots, Scatterplots
+
+Hypothesis Testing using ttest_ind, spearmanr tests on predicted, actual distance/Time of Trip/Segment
+
+One Hot Encoding of using Target Encoding 
+
+Used heatmap (correlation) to find the linear relationship between numerical values.
 
 ## Insights:
 **Inter and Intra State Flow of Deliveries between Top States**
