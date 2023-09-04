@@ -63,19 +63,42 @@ Column Standardization
 
   ![Distribution of Acutal and OSRM TIme](https://github.com/jdeepanshu/logistics/assets/6391462/0c2adef0-bf26-4825-879a-18438d9217cb)
 
-**Visual Analysis of Predicted Distance of Full Trip and Estimated Distance in each segment of Delivery**
+   On the whole, actual time is higher than osrm time. Actual time extends up to 13 hours which is double the maximum osrm_time.
+
+  ![image](https://github.com/jdeepanshu/logistics/assets/6391462/dbf42a20-1449-4cc7-bb0c-11e38884fc93)
+
+  On average, there is no difference between the actual time and the segment actual time.
+
+**Visual Analysis of Predicted OSRM Distance of Full Trip and Distance in each Segment of Delivery**
 
   ![Distribution of OSRM Distance and Segment OSRM Distance](https://github.com/jdeepanshu/logistics/assets/6391462/871532ae-ff49-487a-9622-45edfeb70294)
 
-  On average, there is no difference between the actual time and the segment actual time.
+  The value of osrm distance is lower than that of aggregated segment values.
+
+**Visual Analysis of Predicted Distance and Time of Full Trip and each segment of Delivery**
+
+  ![image](https://github.com/jdeepanshu/logistics/assets/6391462/d04c1d58-9d94-433c-afb8-9f7d9dbf5a28)
+
+  Generally, the value of osrm time is lower than that of aggregated segment values.
   
-  Generally, the value of osrm distance,time is lower than that of aggregated segment values.
-  
-  On the whole, actual time is higher than osrm time. Actual time extends up to 13 hours which is double the maximum osrm_time.
+**Trips by Route Type**
 
   ![image](https://github.com/jdeepanshu/logistics/assets/6391462/b3d7e3cc-234a-4f4e-b0ae-1abfa4305935)
 
-  The Carting Trips/Full Truck Trip ratio is 2x, which can be increased further to improve short-duration deliveries for distance upto 100kms.
+  The Carting Trips/Full Truck Trip ratio is 2x, which can be increased further to improve short-duration deliveries for distances upto 100kms.
+
+**Correlation Matrix**
+
+  ![image](https://github.com/jdeepanshu/logistics/assets/6391462/39d3204a-2b21-45f2-91c0-9bac99d60ac5)
+
+  Our Feature Delivery Count has high correlation with actual_distance_to Destination and osrm distance.
+  
+  Delivery Time also has high correlation with actual_distance_to Destination and osrm distance
+
+**Standardized Distribution of Numerical Feature** 
+
+  ![image](https://github.com/jdeepanshu/logistics/assets/6391462/02b6e470-947c-41a3-9fc2-9a8290eced27)
+
 
 ## Recommendations
 
