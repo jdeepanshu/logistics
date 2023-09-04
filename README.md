@@ -72,7 +72,9 @@ Column Standardization
   Generally, the value of osrm distance,time is lower than that of aggregated segment values.
   
   On the whole, actual time is higher than osrm time. Actual time extends up to 13 hours which is double the maximum osrm_time.
-  
+
+  ![image](https://github.com/jdeepanshu/logistics/assets/6391462/b3d7e3cc-234a-4f4e-b0ae-1abfa4305935)
+
   The Carting Trips/Full Truck Trip ratio is 2x, which can be increased further to improve short-duration deliveries for distance upto 100kms.
 
 ## Recommendations
